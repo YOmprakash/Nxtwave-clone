@@ -1,0 +1,137 @@
+
+.sideBar {
+    max-width: 265px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 21, 37);
+}
+
+.sideBar div {
+    padding: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sideBar div img {
+    width: 200px;
+   margin-top: 1.5rem;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.search-container {
+    margin-top:1.5rem;
+   height: 22px;
+    width: 100%;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(30, 41, 59);
+    border: 1px solid rgb(100, 116, 139);
+    border-radius: 8px;
+}
+
+.search-container input {
+    flex-grow: 1;
+    color: #fff;
+    width: 100%;
+    border: none;
+    outline: none;
+   
+    background-color: transparent;
+    font-family: sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+   
+}
+
+.search-icon {
+    color: #fff;
+    margin-left: 4px;
+}
+
+.tab-scroll-container{
+ 
+   margin-top: 2rem;
+  
+    max-height: 500px;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+.tab-ul-container{
+    overflow: scroll;
+    scrollbar-width: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.tab-ul-container li{
+    display: flex;
+    align-items: center;
+  
+   
+}
+
+.tab-ul-container li a{
+    
+    margin-left: 10px;
+    color: rgb(148, 163, 184);
+    font-family: sans-serif;
+font-size: 16px;
+    text-decoration: none;
+}
+.tab-icon{
+    color: #fff;
+    height: 26px;
+    width: 26px;
+    margin-right: 1rem;
+    color: rgb(150, 170, 190);
+
+}
+.share-icon{
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    margin-left: 1rem;
+    color: rgb(100, 116, 133);
+}
+.apps{
+  
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(100, 116, 139);
+    line-height: 1.35;
+    
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+.profile-container{
+   top: 0;
+    display: flex;
+    justify-content: center;
+height: auto;
+   
+}
+
+.profile-img{
+    max-width: 40px;
+
+    height: 40px;
+    object-fit:cover;
+    border-radius: 50%;
+
+}
+.name{
+    color: #fff;
+    font-size: 12px;
+   
+}
