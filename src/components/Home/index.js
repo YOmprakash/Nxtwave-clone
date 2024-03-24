@@ -228,6 +228,159 @@ Scientist, Apple</p>
         <button type='button' className='trainer-section-callback-btn'>Request Callback</button>
         </div>
     </section>
+    <section className='video-testimonial-section'>
+        <div className='video-testimonial-section-container'>
+            <h2>Hear about CCBP 4.0 learners' experiences</h2>
+        </div>
+    </section>
+    <section className='featured-section'>
+        <div className='featured-section-container'>
+            <h2>featured in</h2>
+            <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/intensive/as-seen-in/featured-in-section-desktop.png' alt='desktop-feature'/>
+            <button type='button' className='callback'>Request Callback</button>
+        </div>
+    </section>
+    <section className='masterclass-section'>
+        <div className='masterclass-section-container'>
+            <div className='masterclass-section-info'>
+                <div className='masterclass-section-info-card'>
+                    <h2>Masterclasses from Mentors in the Community</h2>
+                    <p>Get insights directly from people who have been there and done that. These masterclasses not only provide directions to reach your career goals but also keep you inspired to dream without limitations and achieve them.</p>
+                    <img src='https://nxtwave.imgix.net/ccbp-website/professional/masterclass-community.png?auto=format,compress&q=80' alt='masterclass-community'/>
+                <button type='button' className='callback'>Request Callback</button>
+                </div>
+                <div className='masterclass-section-mentor-card'>
+                    <img src='https://nxtwave.imgix.net/ccbp-website/Home/Master-classes/rakesh-misra-yt.png?auto=format,compress&q=80' alt='rakesh-misra-yt'/>
+                    <div className='masterclass-section-mentor-card-info'>
+                        <h4>Sneak Peek Of Masterclass by Rakesh Misra</h4>
+                        <p>Co-Founder Uhana (Acquired by VMWare), Stanford, IIT Madras</p>
+                    </div>
+                </div>
+            </div>
+            <div className='masterclass-mentor-section'>
+                <div className='masterclass-mentor-cards'>
+                    <div className='masterclass-mentor-card'>
+                        <img src='https://nxtwave.imgix.net/ccbp-website/Home/Master-classes/Srividya+Pranavi.png?auto=format,compress&q=80' alt='srividya-pranavi'/>
+                        <div className='masterclass-mentor-card-info'>
+                            <h2>Srividya Pranavi</h2>
+                            <div className='mentor-sub-card'>
+                            <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/bag-image.png' alt='bag'/>
+                                <p>Machine Learning Scientist, Apple</p>
+                            </div>
+                            <div className='mentor-sub-card'>
+                            <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/graduation-image.png' alt='graduation'/>
+                                <p>Carnegie Mellon University,
+IIT Kharagpur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='masterclass-mentor-card'>
+                        <img src='https://nxtwave.imgix.net/ccbp-website/Home/Master-classes/Sravya+Nimmagadda.png?auto=format,compress&q=80' alt='srividya-pranavi'/>
+                        <div className='masterclass-mentor-card-info'>
+                            <h2>Srividya Pranavi</h2>
+                            <div className='mentor-sub-card'>
+                            <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/bag-image.png' alt='bag'/>
+                                <p>Machine Learning Scientist, Apple</p>
+                            </div>
+                            <div className='mentor-sub-card'>
+                            <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/graduation-image.png' alt='graduation'/>
+                                <p>Carnegie Mellon University,
+IIT Kharagpur</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div className='masterclass-mentor-cards'>
+                    <div className='masterclass-mentor-card'>
+                        <img src='https://nxtwave.imgix.net/ccbp-website/Home/Master-classes/Priyatham+Bollimpalli.png?auto=format,compress&q=80' alt='srividya-pranavi'/>
+                        <div className='masterclass-mentor-card-info'>
+                            <h2>Srividya Pranavi</h2>
+                            <div className='mentor-sub-card'>
+                            <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/bag-image.png' alt='bag'/>
+                                <p>Machine Learning Scientist, Apple</p>
+                            </div>
+                            <div className='mentor-sub-card'>
+                            <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/graduation-image.png' alt='graduation'/>
+                                <p>Carnegie Mellon University,
+IIT Kharagpur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='masterclass-mentor-card'>
+                        <img src='https://nxtwave.imgix.net/ccbp-website/Home/Master-classes/vamsi-krishna.png?auto=format,compress&q=80' alt='srividya-pranavi'/>
+                        <div className='masterclass-mentor-card-info'>
+                            <h2>Srividya Pranavi</h2>
+                            <div className='mentor-sub-card'>
+                            <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/bag-image.png' alt='bag'/>
+                                <p>Machine Learning Scientist, Apple</p>
+                            </div>
+                            <div className='mentor-sub-card'>
+                            <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/graduation-image.png' alt='graduation'/>
+                                <p>Carnegie Mellon University,
+IIT Kharagpur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p className='mentor-more'>and many more...</p>
+        </div>
+    </section>
+    <section className='mentor-community-section'>
+        <div className='mentor-community-container'>
+            <h2>Mentor Community</h2>
+            <p>Our mentor community strongly believes in the power of sharing!<br/>
+            We collaborate with professionals from great companies to guide you on this exciting journey.</p>
+            <img src='https://nxtwave.imgix.net/ccbp-website/Home/Mentor+Community/mentor-community-companies.png?auto=format,compress&q=80' alt='mentor-community'/>
+            <p className='mentor-more
+            '>  and many more</p>
+            <button type='button'>Request Callback</button>
+
+        </div>
+    </section>
+    <section className='fund-raise-section'>
+        <div className='fund-raise-container'>
+            <h2>Announcing Our Latest Fundraise
+of INR 275 Crores Led by</h2>
+<div className='fund-raise-img-card'>
+    <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/greater-pacific.svg' alt='
+    greater-pacific' />
+</div>
+<h2>Celebrating continued support from our existing partners
+
+</h2>
+<div className='fund-raise-celebrate-card'>
+    <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/oris-partner.png' alt='
+    oris-partner' />
+    <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/better-partner.png' alt='
+    better-partner' />
+</div>
+<p>And many more..</p>
+<div className='fund-raise-btn-card'>
+    <button type='button'>Request Callback</button>
+    <button type='button'>Join Our Community</button>
+</div>
+        </div>
+    </section>
+    <section className='niat-section'>
+        <div className='niat-container'>
+            <div className='niat-heading-card'>
+                <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/star.svg' alt='star' />
+                <h2>Announcing Our New Initiative</h2>
+                <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/star.svg' alt='star' />
+            </div>
+            <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/niat-logo-desktop.svg' alt='niat-logo' />
+            <h1>Building India's Best Institute for Computer Science Education</h1>
+            <button type='button'>Know more</button>
+        </div>
+    </section>
+    <div className='whatsapp-container'>
+        <h2>Chat with us</h2>
+        <img src='https://nxtwave.imgix.net/ccbp-website/Home/whatsapp-icons.png?auto=format,compress&q=80' alt='whatsapp-icons'/>
+    </div>
+    <footer className='footer'>
+
+    </footer>
     </div>
   
     )

@@ -610,3 +610,350 @@ margin-left: 0;
     text-decoration: none;
     
 }
+
+.video-testimonial-section{
+    background-color: #f9fbfe;
+    padding: 96px 48px 64px;
+}
+
+.video-testimonial-section-container{
+    max-width: 1279px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.featured-section{
+    background-color: #fff;
+    padding: 64px 48px;
+
+}
+
+.featured-section-container{
+    max-width: 1260px;
+    margin-bottom: 16px;
+    margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    
+}
+
+.featured-section-container h2{
+    color: #183b56;
+    text-align: center;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-family: "Inter 600", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    margin-bottom: 2rem;
+}
+
+.featured-section-container img{
+    width: 100%;
+   
+}
+
+.featured-section-container button{
+    margin-top: 2rem;
+}
+
+.masterclass-section{
+    background-color: #183b56;
+    
+  padding: 68px 24px;
+    font-style: normal;
+    display: block;
+}
+.masterclass-section-container{
+   max-width: 1200px;
+   padding: 0 20px;
+}
+
+.masterclass-section-info{
+    display: flex;
+    align-items: center;
+}
+
+.masterclass-section-info-card{
+    width: 50%;
+    padding-right: 10px;
+    position: relative;
+    
+
+}
+.masterclass-section-info-card h2{
+    color: #fff;
+    margin-bottom: 0;
+    font-family: sofia-pro, sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.masterclass-section-info-card p{
+    width: 500px;
+    color: #fff;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    font-size: 18px;
+    line-height: 36px;
+}
+.masterclass-section-info-card img{
+    width: 100%;
+}
+.masterclass-section-mentor-card{
+    width: 50%;
+    object-fit: fill;
+}
+.masterclass-section-mentor-card img{
+    width: 100%;
+}
+
+.masterclass-section-mentor-card-info{
+    background-color: #fefefe;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-bottom: 65px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    padding-left: 12px;
+    overflow: hidden;
+    top: 0;
+}
+.masterclass-section-mentor-card-info h4{
+    color: #183b56;
+    margin-bottom: 14px;
+    font-family: "Inter 700", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.masterclass-section-mentor-card-info p{
+    color: #183b56;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.masterclass-mentor-section{
+    display:flex;
+    align-items: center;
+   
+    width: 100%;
+}
+.masterclass-mentor-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.masterclass-mentor-card{
+    width: 280px;
+    height: auto;
+min-height: 180px;
+margin-right: 14px;
+
+}
+.masterclass-mentor-card img{
+    width: 100%;
+    object-fit: cover;
+}
+.masterclass-mentor-card-info{
+    width: 100%;
+    background-color: #fff;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 20px 20px 12px;
+   
+}
+.masterclass-mentor-card-info h4{
+    color: #183b56;
+    margin-bottom: 24px;
+    font-family: "Inter 500", sans-serif;
+    font-size: 24px;
+    font-weight: 500
+}
+.mentor-sub-card{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    
+    
+}
+.mentor-sub-card img{
+    width: 100%;
+    max-width: 20px;
+    object-fit: cover;
+}
+
+.mentor-sub-card p{
+    
+    color: #183b56;
+    font-family: "Inter 400", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    display: block;
+    margin-left: 10px;
+}
+
+.mentor-more{
+    color: #ebe6e6;
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 0;
+    padding-right: 0;
+    font-family: "Inter 600", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mentor-community-section{
+background-color: rgb(255, 255, 255);
+display: block;
+    padding: 64px 64px;
+}
+.mentor-community-container{
+    max-width: 1200px;
+    padding-top: 0;
+    margin: 0 auto;
+}
+.mentor-community-container h2{
+    color: rgb(24, 59, 86);
+    text-align: left;
+    font-family: sofia-pro, sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+  
+    line-height: 44px;
+}
+.mentor-community-container p{
+    font-size: 16px;
+    color: rgb(90, 113, 132);
+    font-family: "Inter 400", sans-serif;
+    line-height: 28px;
+}
+.mentor-community-container img{
+    width: 100%;
+}
+
+.fund-raise-section{
+    background-image: url('https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/63f3882642772970018a63c8_BG%20(5).png')
+    ;
+    background-color: rgb(249, 251, 254);
+    background-size: cover;
+    margin-right: 0px;
+    background-position: 0px 0px;
+}
+.fund-raise-container{
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 96px 48px;
+}
+.fund-raise-container h2{
+    color: rgb(24, 59, 86);
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-top: 0px;
+    margin-bottom: 64px;
+    font-family: sofia-pro, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.fund-raise-img-card{
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/desktop-confetti-1.svg');
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+.fund-raise-celebrate-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.fund-raise-celebrate-card img{
+    width: 100%;
+    max-width: 306px;
+    height: 80px;
+    margin-right: 96px;
+}
+
+.niat-section{
+    background-color: rgb(30, 58, 138);
+    display: block;
+ 
+}
+.niat-container{
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: flex;
+    flex-flow: column;
+}
+.niat-heading-card{
+    display: flex;
+    align-items: center;
+}
+.niat-heading-card h2{
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(117deg, rgb(255, 178, 24), rgb(255, 255, 255));
+    background-clip: text;
+    font-family:  sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px
+}
+.niat-container h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 24px;
+    font-family: "Inter 500", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.whatsapp-container{
+    z-index: 6;
+    height: 64px;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(87, 209, 99) 0%, rgb(35, 179, 58));
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-right: 48px;
+    display: flex;
+    position: fixed;
+    top: auto;
+    bottom: 5%;
+    left: auto;
+    padding: 24px 16px 24px 24px;
+    right: 0%;
+    box-shadow: rgba(0, 0, 0, 0.08) 8px 8px 16px;
+    border-radius: 48px;
+}
+.whatsapp-container img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer{
+    background-color: rgb(13, 36, 54);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
