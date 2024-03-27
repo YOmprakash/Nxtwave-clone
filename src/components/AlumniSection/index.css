@@ -1,0 +1,56 @@
+.alumni-section{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.alumni-container{
+    max-width: 1200px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 0;
+}
+
+.alumni-container img{
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:768px){
+    .desktop-image{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px){
+    .mobile-image{
+        display: none;
+    }
+}
+
+.alumni-container h4{
+    color: #183b56;
+    text-align: center;
+    letter-spacing: .5px;
+    margin-bottom: 32px;
+    font-family: "Inter 600", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    padding-top: 2rem;
+}
+
+.alumni-container p{
+    color: #5a7184;
+    text-align: center;
+    margin-top: 24px;
+    padding-right: 0;
+    font-family: "Inter 500", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+}

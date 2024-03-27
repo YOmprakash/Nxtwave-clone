@@ -1,0 +1,185 @@
+
+
+.trainer-section{
+    background-color: #f9fbfe;
+    padding: 96px 24px;
+}
+ 
+.trainer-section-block{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width:1024px){
+    .trainer-section-block{
+        width: 90%;
+    }
+}
+
+.trainer-section-block h2{
+    color: #183b56;
+    letter-spacing: -.5px;
+    margin-top: 0;
+    margin-bottom: 48px;
+    font-family:  sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.trainer-section-block-card{
+    background-color: #f9fbfe;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    justify-content: center;
+    margin-bottom: 0;
+   
+    display: block;
+}
+
+.card-section{
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.card-section-card{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 0;
+
+}
+
+.trainer-img-cards{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.trainer-img-card{
+    width: 160px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px rgba(96,97,112,.16);
+}
+.trainer-img-card img{
+    width: 100%;
+}
+.trainer-img-card-info h1{
+    color: #183b56;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+}
+.trainer-img-card-info p{
+    color: #535353;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 12px;
+    line-height: 15.62px;
+    margin-bottom: 6px;
+}
+.student{
+    width: 200px;
+}
+
+.trainer-card{
+    margin-bottom: 16px;
+    text-align: center;
+}
+.trainer-card h4{
+    color: #183b56;
+    text-align: left;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.trainer-card h4 span{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.more{
+    color: #5a7184;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+.student-card{
+    display: block;
+    width: 225px;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    align-self: center;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px rgba(96,97,112,.16);
+}
+
+.student-card img{
+    height: 285px;
+    width: 100%;
+}
+.student-info-card{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -39px;
+    padding: 16px 0;
+   
+    display: flex;
+    position: relative;
+}
+.student-info-card h1{
+    color: #183b56;
+    font-size: 18px;
+}
+.student-card-logo{
+    width: 100%;
+    max-width: 60px;
+}
+
+.trainer-section-callback-btn{
+    height: 48px;
+    background-color: #1565d8;
+    border-radius: 12px;
+    color: #fff;
+    padding: 12px 32px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    margin-top: 24px;
+    
+}
+
+@media screen  and (max-width:1024px) {
+    .student-card{
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+    .card-section{
+        flex-direction: column;
+    }
+    .trainer-section-block h2{
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 44px;
+    }
+
+    
+    .trainer-section-callback-btn{
+        align-self: center;
+    }
+  
+}

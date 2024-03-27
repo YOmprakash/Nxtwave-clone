@@ -1,0 +1,230 @@
+
+.masterclass-section{
+    background-color: #183b56;
+    
+  padding: 64px 64px;
+
+}
+@media  screen and (max-width:1024px) {
+    .masterclass-section{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+}
+.masterclass-section-container{
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+  
+}
+
+.masterclass-section-info{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:1024px){
+    .masterclass-section-info{
+        margin-bottom: 48px;
+    
+    }
+}
+
+
+
+.masterclass-section-info-card{
+    width: 50%;
+    margin-right: 10px;
+    position: relative;
+    
+
+}
+@media screen and (max-width:768px){
+    .masterclass-section-info{
+       flex-direction: column;
+       justify-content: center;
+       width: 100%;
+    }
+    .masterclass-section{
+        padding-top: 48px;
+        padding-bottom: 20px;
+    }
+    .masterclass-section-container{
+        padding-left: 0;
+        padding-left: 0;
+    }
+    .masterclass-section-info-card{
+        width: 100%;
+    }
+}
+
+
+.masterclass-section-info-card h2{
+    color: #fff;
+    margin-bottom: 0;
+    font-family: sofia-pro, sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.masterclass-section-info-card p{
+    width: 430px;
+    color: #fff;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    font-size: 18px;
+    line-height: 36px;
+    
+}
+@media screen and (max-width:768px){
+    .masterclass-section-info-card p{
+        margin-bottom: 30px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        display: block;
+        width: 250px;
+    }
+}
+
+.masterclass-section-info-card img{
+    width: 100%;
+}
+.masterclass-section-mentor-card{
+    width: 50%;
+    object-fit: fill;
+}
+.masterclass-section-mentor-card img{
+    width: 100%;
+}
+
+.masterclass-section-mentor-card-info{
+    background-color: #fefefe;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-bottom: 65px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    padding-left: 12px;
+    overflow: hidden;
+    top: 0;
+}
+.masterclass-section-mentor-card-info h4{
+    color: #183b56;
+    margin-bottom: 14px;
+    font-family: "Inter 700", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.masterclass-section-mentor-card-info p{
+    color: #183b56;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.masterclass-mentor-section{
+    display:flex;
+    align-items: center;
+    width: 100%;
+}
+@media screen and (max-width:1024px){
+    .masterclass-mentor-section{
+        flex-direction: column;
+    }
+}
+
+.masterclass-mentor-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px){
+    .masterclass-mentor-cards{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+.masterclass-mentor-card{
+    width: 280px;
+    height: auto;
+min-height: 180px;
+margin-right: 16px;
+
+}
+@media screen and (max-width:1024px){
+    .masterclass-mentor-card{
+        margin-bottom: 24px;
+        margin-right: 24px;
+    }
+    
+}
+.masterclass-mentor-card img{
+    width: 100%;
+    object-fit: cover;
+}
+.masterclass-mentor-card-info{
+    width: 100%;
+    background-color: #fff;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 20px 20px 12px;
+   
+}
+.masterclass-mentor-card-info h4{
+    color: #183b56;
+    margin-bottom: 24px;
+    font-family: "Inter 500", sans-serif;
+    font-size: 24px;
+    font-weight: 500
+}
+.mentor-sub-card{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    
+    
+}
+.mentor-sub-card img{
+    width: 100%;
+    max-width: 20px;
+    object-fit: cover;
+}
+
+.mentor-sub-card p{
+    
+    color: #183b56;
+    font-family: "Inter 400", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    display: block;
+    margin-left: 10px;
+}
+
+.mentor-more{
+    color: #ebe6e6;
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 0;
+    padding-right: 0;
+    font-family: "Inter 600", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.masterclass-callback{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #183b56;
+    padding: 10px 24px;
+    border-radius: 10px;
+    margin-top: 12px;
+}

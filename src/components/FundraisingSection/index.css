@@ -1,0 +1,86 @@
+.fundraising-section{
+    background-image: url('https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/63f3882642772970018a63c8_BG%20(5).png');
+    background-color: rgb(249, 251, 254);
+    background-size: cover;
+    margin-right: 0px;
+    background-position: 0px 0px;
+}
+@media screen and (max-width:768px){
+    .fundraising-section{
+        background-image: none;
+        background-position: 0 0;
+    }
+}
+.fundraising-container{
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 96px 48px;
+}
+
+@media screen and (max-width:768px){
+    .fundraising-container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+.fundraising-container h2{
+    color: rgb(24, 59, 86);
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-top: 0px;
+    margin-bottom: 64px;
+    font-family: sofia-pro, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.fundraising-container h4{
+    color: rgb(24, 59, 86);
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-top: 0px;
+    margin-bottom: 64px;
+    font-family: sofia-pro, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.fundraising-image-card{
+    background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/desktop-confetti-1.svg');
+    background-size: cover;
+    background-position: 50% 100%;
+    margin-bottom: 24px;
+}
+
+.fundraising-image-card img{
+    width: 100%;
+}
+
+.fundraising-celebration-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.fundraising-celebration-card img{
+    width: 100%;
+    max-width: 306px;
+    height: 80px;
+    margin-right: 96px;
+}
+
+@media screen and (max-width:768px){
+    .fundraising-celebration-card img  {
+        max-width: 156px;
+    }
+}

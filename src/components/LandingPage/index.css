@@ -1,0 +1,257 @@
+
+
+.hero-section{
+    padding: 64px 64px;
+   background-color: #f8fafc;
+
+}
+
+.hero-container{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-info-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 500px;
+    text-align: left;
+
+}
+@media screen and (max-width:768px){
+    .hero-info-card{
+        display: none;
+    }
+    
+}
+.hero-info-card h1{
+    color: #183b56;
+   line-height: 54px;
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-family:  sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    width: 350px;
+  
+}
+.info-image-card{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.info-image-card p{
+    color: #475569;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Inter 600", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+ 
+.info-image-card img{
+    width: 252px;
+}
+.hero-img-cards{
+    margin-top: 1rem;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+ 
+}
+.hero-img-cards img{
+
+    width: 100%;
+    max-width: 189px;
+}
+.hero-profile-cards{
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.card{
+    
+    z-index: 2;
+    width: 340px;
+    height: 539px;
+    background-color: #fff;
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    margin-right: 24px;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(96,97,112,.16);
+}
+
+@media screen and (max-width:768px){
+    .hero-profile-cards{
+        flex-direction: column;
+    
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .card{
+        margin-bottom: 34px;
+        margin-right: 0;
+    }
+}
+
+.type-img-card{
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 24px;
+    display: flex;
+
+}
+.avatar{
+    width: 100%;
+    max-width: 150px;
+  
+    width: 149px;
+    height: 237.203px;
+    position: relative;
+    top: -28px;
+}
+
+.type-img{
+   align-self: center;
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 4rem;
+}
+
+.card-info{
+    z-index: 1;
+    height: 419px;
+    background-color: transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), #fff 14%, #fff);
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    margin-top: -135px;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 24px 0px;
+    position: relative;
+}
+
+.card-info span{
+    color: #3730a3;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    background-color: #e0e7ff;
+    border-radius: 8px;
+    margin-right: 8px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+   align-self: start;
+}
+
+.card h1{
+    color: #183b56;
+    letter-spacing: -.01em;
+    margin-bottom: 26px;
+    font-family: "Inter 600", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.start-seat-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+}
+
+.fire-seat-card{
+    display: flex;
+    align-items: flex-start;
+    height: 48px;
+}
+
+
+.fire-seat-card p{
+  
+    color: #183b56;
+    margin-left: 4px;
+    font-family: "Inter 500", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.batch-start{
+    color: #64748b;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    font-family: "Inter 600", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.batch-date{
+    color: #183b56;
+    font-family: "Inter 600", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.callback{
+    width: 100%;
+    padding:12px 32px;
+    border: none;
+    outline: none;
+    background-color: #1565d8;
+    color: #fff;
+    border-radius: 10px;
+    font-family: "Inter 500", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    margin-top: 1rem;
+}
+
+.knowmore{
+    color: #1565d8;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    margin-top: 1rem;
+    font-weight: 600;
+    line-height: 19.36px;
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .hero-section{
+        flex-direction: column;
+        margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 32px;
+    }
+    .hero-info-card{
+        margin-bottom: 48px;
+    }
+    .hero-info-card h1{
+        width: 470px;
+       line-height: 64px;
+       
+    }
+}
