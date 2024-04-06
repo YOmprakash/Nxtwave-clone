@@ -59,7 +59,7 @@ BIT Mesra</p>
                 <img src='https://nxtwave.imgix.net/ccbp-website/intensive/team/student-image.png?auto=format,compress&q=80' alt='student' />
                 <div className='student-info-card'>
                     <h1>Student at</h1>
-                    
+                  
                 </div>
                 </div>
                 

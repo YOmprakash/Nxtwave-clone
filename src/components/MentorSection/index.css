@@ -142,6 +142,15 @@
     color: #183b56;
     font-size: 18px;
 }
+
+.student-card-logo{
+    width: 20px;
+    
+}
+.student-card-logo img{
+    width: 100%;
+  margin-top: 0px;
+}
 .student-card-logo{
     width: 100%;
     max-width: 60px;

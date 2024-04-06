@@ -11,6 +11,7 @@ import MasterClass from '../MasterClass'
 import MentorComunity from '../MentorComunity'
 import FundraisingSection from '../FundraisingSection'
 import Niat from '../Niat'
+import NationalRecognizeSection from '../NationalRecognizeSection'
 import './index.css'
 
 function Home() {
@@ -22,6 +23,7 @@ function Home() {
    <RecognisedSection/>
    <HiringCompaniesSection/>
    <AwardSection/>
+   <NationalRecognizeSection/>
    <MentorSection/>
    <FeaturedSection/>
    <MasterClass/>

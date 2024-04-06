@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaPhone } from "react-icons/fa6";
 import './index.css'
 
 export default function HiringCompaniesSection() {
@@ -12,8 +13,11 @@ export default function HiringCompaniesSection() {
             <img src='https://nxtwave.imgix.net/ccbp-website/intensive/companies-hiring-section/hiring-companies-mobile.png?auto=format,compress&q=80' alt='Companies that have hired NxtWave learners - mobile view'  className='mobile-image'/>
             <p>and many more...</p>
             <div className='button-container'>
-                <button type='button' className='callback-button'>Request a Callback</button>
-                <button type='button' className='view-all-button'>View All Companies</button>
+            <div className='hire-request-con'>
+            <FaPhone color='#fff'/>
+                <button type='button' className='callback-btn'>Request a Callback</button>
+                </div>
+                <button type='button' className='view-all-btn'>View All Companies</button>
             </div>
         </div>
     </section>

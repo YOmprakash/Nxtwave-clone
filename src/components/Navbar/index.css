@@ -1,6 +1,6 @@
 
 
-nav{
+header{
    background-color:transparent;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@ z-index: 1000;
 position: static;
     
 }
-nav div{
+header div{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -16,7 +16,7 @@ nav div{
 }
 
 
-nav div img{
+header div img{
     width: 120px;
     
     object-fit: cover;
@@ -50,9 +50,6 @@ ul a:hover{
     display: none;
 }
 
-.nav-sm{
-    display: none;
-   
-}
+
 
 
