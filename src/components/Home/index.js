@@ -13,6 +13,7 @@ import FundraisingSection from '../FundraisingSection'
 import Niat from '../Niat'
 import NationalRecognizeSection from '../NationalRecognizeSection'
 import './index.css'
+import Footer from '../Footer'
 
 function Home() {
   return (
@@ -30,6 +31,7 @@ function Home() {
    <MentorComunity/>
    <FundraisingSection/>
    <Niat/>
+   <Footer/>
  
    
 
@@ -41,9 +43,7 @@ function Home() {
         <h2>Chat with us</h2>
         <img src='https://nxtwave.imgix.net/ccbp-website/Home/whatsapp-icons.png?auto=format,compress&q=80' alt='whatsapp-icons'/>
     </div>
-    <footer className='footer'>
-
-    </footer>
+    
     </div>
   
     )

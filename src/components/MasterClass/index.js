@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaPhone } from "react-icons/fa6";
 import './index.css'
 export default function Masterclass() {
   return (
@@ -10,7 +11,12 @@ export default function Masterclass() {
                     <h2>Masterclasses from Mentors in the Community</h2>
                     <p>Get insights directly from people who have been there and done that. These masterclasses not only provide directions to reach your career goals but also keep you inspired to dream without limitations and achieve them.</p>
                     <img src='https://nxtwave.imgix.net/ccbp-website/professional/masterclass-community.png?auto=format,compress&q=80' alt='masterclass-community'/>
-                <button type='button' className='callback'>Request Callback</button>
+                    <div className='masterclass-button'>
+          
+          <FaPhone color='#183b56'/>
+              <button type='button'>Request a Callback</button>
+              
+         </div>
                 </div>
                 <div className='masterclass-section-mentor-card'>
                     <img src='https://nxtwave.imgix.net/ccbp-website/Home/Master-classes/rakesh-misra-yt.png?auto=format,compress&q=80' alt='rakesh-misra-yt'/>
@@ -20,6 +26,13 @@ export default function Masterclass() {
                     </div>
                 </div>
             </div>
+            <img className='hidden-img' src='https://nxtwave.imgix.net/ccbp-website/Home/Mentor+Community/mentor-community-companies-mobile.png' alt='mentor-community'/>
+            <div className='masterclass-button hide'>
+          
+          <FaPhone color='#183b56'/>
+              <button type='button'>Request a Callback</button>
+              
+         </div>
             <div className='masterclass-mentor-section'>
                 <div className='masterclass-mentor-cards'>
                     <div className='masterclass-mentor-card'>

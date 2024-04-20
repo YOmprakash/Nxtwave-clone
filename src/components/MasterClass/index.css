@@ -37,6 +37,7 @@
     width: 50%;
     margin-right: 10px;
     position: relative;
+    margin-bottom: 20px;
     
 
 }
@@ -63,7 +64,7 @@
 .masterclass-section-info-card h2{
     color: #fff;
     margin-bottom: 0;
-    font-family: sofia-pro, sans-serif;
+    font-family:  sans-serif;
     font-size: 38px;
     font-weight: 600;
     line-height: 64px;
@@ -77,16 +78,7 @@
     line-height: 36px;
     
 }
-@media screen and (max-width:768px){
-    .masterclass-section-info-card p{
-        margin-bottom: 30px;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 32px;
-        display: block;
-        width: 250px;
-    }
-}
+
 
 .masterclass-section-info-card img{
     width: 100%;
@@ -103,7 +95,6 @@
     background-color: #fefefe;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    margin-bottom: 65px;
     padding-top: 16px;
     padding-bottom: 17px;
     padding-left: 12px;
@@ -156,6 +147,7 @@
     height: auto;
 min-height: 180px;
 margin-right: 16px;
+
 
 }
 @media screen and (max-width:1024px){
@@ -219,12 +211,86 @@ margin-right: 16px;
     font-weight: 600;
 }
 
-.masterclass-callback{
+.masterclass-button{
+    display: flex;
+    align-items: center;
+    
+    background-color: #fff;
+    padding: 15px 0px;
+    width: 250px;
+    justify-content: center;
+    border-radius: 10px;
+    
+    margin-top: 20px;
+
+}
+
+.masterclass-button button{
+    padding-left: 10px;
     border: none;
     outline: none;
-    background-color: #fff;
-    color: #183b56;
-    padding: 10px 24px;
-    border-radius: 10px;
-    margin-top: 12px;
+   background-color: transparent;
+   color: #183b56;
+   
+    font-family: "Inter 500", sans-serif;
+    font-size: 16px;
+    font-weight: 500
+}
+.hide{
+    display: none;
+}
+.hidden-img{
+    width: 100%;
+    display: none;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:768px){
+    .masterclass-section-container{
+        padding: 22px 0px;
+    }
+    .masterclass-section-info-card h2{
+       
+        font-size: 28px;
+        line-height: 36px;
+        
+    }
+    .masterclass-section-info{
+        margin-bottom: 22px;
+    }
+    .masterclass-section-info-card p{
+        margin-bottom: 30px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+       width: 100%;
+      
+    }
+    .masterclass-section-info-card img{
+       display: none;
+    }
+    .masterclass-button{
+        display: none;
+    }
+    .masterclass-section-mentor-card{
+        width: 100%;
+        
+    }
+    .hidden-img{
+        display: block;
+    }
+    .masterclass-button{
+        padding: 15px 22px;
+        margin: auto;
+    }
+    .hide{
+        display: block;
+    }
+    .masterclass-mentor-section{
+        margin-top: 22px;
+    }
+    .masterclass-mentor-card{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 24px;
+    }
 }

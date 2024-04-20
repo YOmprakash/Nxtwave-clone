@@ -1,6 +1,7 @@
 
 
 import React from 'react'
+import { FaPhone } from "react-icons/fa6";
 import './index.css'
 
 export default function AwardSection() {
@@ -32,7 +33,7 @@ Education</h2>
           </div>
         </div>
        
-        <div className='award-card-container one'>
+        <div className='award-card-container-one'>
           <img src='https://nxtwave.imgix.net/ccbp-website/Home/preferred.png' alt='award'/>
           <img src='https://nxtwave.imgix.net/ccbp-website/Home/brands-leaders.png' alt='award'/>
         </div>
@@ -43,17 +44,22 @@ Education</h2>
           <p className='award-img-info'>Founders Mr. Anupam Pedarla and Mr. Sashank Gujjula made it to the prestigious 2024 Forbes India 30 Under 30 list!</p>
         </div>
         <div className='double-card-container'>
-          <div className=''>
+          <div className='double-card'>
             <img src='https://nxtwave.imgix.net/ccbp-website/Home/award-by-time-business.png' alt='award'  className='forbes'/>
             <p className='award-img-info'>Mr. Sashank Gujjula, Co-founder, NxtWave, receiving the ‘Best Tech Skilling EdTech Company’ award by Times Business Awards</p>
           </div>
-          <div className=''>
-            <img src='https://nxtwave.imgix.net/ccbp-website/Home/award-by-time-business.png' alt='award'  className='forbes'/>
-            <p className='award-img-info'>Mr. Sashank Gujjula, Co-founder, NxtWave, receiving the ‘Best Tech Skilling EdTech Company’ award by Times Business Awards</p>
+          <div className='double-card'>
+            <img src='https://nxtwave.imgix.net/ccbp-website/Home/t-hub-award.png' alt='award'  className='forbes'/>
+            <p className='award-img-info'>Mr. Sashank Gujjula, Co-founder, NxtWave, receiving the prestigious award by T-Hub</p>
           </div>
         </div>
         </div>
-           
+           <div className='award-card-container-button'>
+          
+            <FaPhone color='#183b56'/>
+                <button type='button'>Request a Callback</button>
+                
+           </div>
             </div>
     </section>
   )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaPhone } from "react-icons/fa6";
 import './index.css'
 
 export default function MentorSection() {
@@ -112,7 +113,12 @@ Scientist, Apple</p>
                 </div>
             </div>
         </div>
-        <button type='button' className='trainer-section-callback-btn'>Request Callback</button>
+        <div className='mentor-section-button'>
+          
+          <FaPhone color='#fff'/>
+              <button type='button'>Request a Callback</button>
+              
+         </div>
         </div>
     </section>
   )

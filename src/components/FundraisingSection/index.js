@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaPhone } from "react-icons/fa6";
 import './index.css'
 
 export default function FundraisingSection() {
@@ -15,11 +16,14 @@ of INR 275 Crores Led by</h2>
     <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/oris-partner.png' alt='Oris Partner logo' />
     <img src='https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/better-partner.png' alt='Better Partner logo' />
 </div>
-<p>And many more..</p>
-<div className='fundraising-button-card'>
-    <button type='button'>Request Callback</button>
-    <button type='button'>Join Our Community</button>
-</div>
+<p>and more..</p>
+<div className='button-container'>
+            <div className='hire-request-con'>
+            <FaPhone color='#fff'/>
+                <button type='button' className='callback-btn'>Request a Callback</button>
+                </div>
+                <button type='button' className='view-all-btn know'>Know More</button>
+            </div>
         </div>
     </section>
   )

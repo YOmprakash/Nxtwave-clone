@@ -76,13 +76,13 @@
     background-color: transparent;
     border: 2px solid #1565d8;
     border-radius: 12px;
-    padding: 12px 24px;
+    padding: 12px 38px;
     
     font-family:sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 19.36px;
-    
+    margin-top: 10px;
     outline: none;
 }
 

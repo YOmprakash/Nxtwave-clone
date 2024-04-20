@@ -40,12 +40,15 @@
     display: flex;
     align-items: center;
 }
-.one{
-    margin-top: 20px;
-    justify-content: space-between;
-}
 
-.one img{
+.award-card-container-one{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.award-card-container-one img{
 width: 100%;
 max-width: 130px;
 
@@ -113,7 +116,8 @@ max-width: 130px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    margin-top: 10px;
+    margin-top: 20px;
+    width: 100%;
 }
 .award-gallery-container{
     display: flex;
@@ -126,4 +130,84 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.award-card-container-button{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 0px;
+    width: 250px;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.award-card-container-button button{
+    padding-left: 10px;
+    border: none;
+    outline: none;
+   background-color: transparent;
+   color: #183b56;
+   
+    font-family: "Inter 500", sans-serif;
+    font-size: 16px;
+    font-weight: 500
+}
+
+
+@media screen and (min-width:768px){
+    .double-card-container{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    .double-card{
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       flex-direction: column;
+    }
+    .forbes{
+        
+        max-width: 531px;
+    }
+   .double-card img{
+    width: 400px;
+   }
+   .award-block-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px;
+   }
+ 
+}
+
+@media screen and (min-width:1024px){
+    .award-container{
+        padding: 64px 64px;
+    }
+    .double-card img{
+        width: 500px;
+       }
+       .award-card-container{
+        justify-content: center;
+        width: 100%;
+       }
+.award-card-container-one{
+    width: 100%;
+   justify-content: center;
+  
+   
+}
+.award-card-container-one img{
+    margin-left: 10px;
+}
+.award-block-card{
+    margin-left: 10px;
+}
 }

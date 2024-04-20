@@ -2,12 +2,13 @@
 .mentor-community-section{
     background-color: rgb(255, 255, 255);
     display: block;
-    padding: 64px 64px;
+    
     }
     .mentor-community-container{
         max-width: 1200px;
         padding-top: 0;
         margin: 0 auto;
+        padding: 64px 64px;
     }
     .mentor-community-container h2{
         color: rgb(24, 59, 86);
@@ -28,3 +29,21 @@
     .mentor-community-container img{
         width: 100%;
     }
+    .button{
+       margin: auto;
+       align-self: center;
+    }
+@media screen and (max-width:768px) {
+    .mentor-community-container{
+        padding: 44px 24px;
+    }
+    .mentor-community-container h2{
+        font-size: 28px;
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+    .mentor-community-container p{
+        font-size: 16px;
+    }
+    
+}

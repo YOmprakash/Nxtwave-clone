@@ -1,3 +1,4 @@
+import { FaPhone } from "react-icons/fa6";
 import './index.css'
 
 export default function NationalRecognizeSection() {
@@ -15,6 +16,12 @@ export default function NationalRecognizeSection() {
                     <h4>Union Minister for Education | Skill Development | Entrepreneurship</h4>
                     <span>Govt. of India - 2023</span>
                 </div>
+                <div className='national-recognize-container-button'>
+          
+          <FaPhone color='#fff'/>
+              <button type='button'>Request a Callback</button>
+              
+         </div>
             </div>
         </section>
     )

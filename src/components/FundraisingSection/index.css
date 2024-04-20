@@ -18,6 +18,17 @@
     margin-right: auto;
     padding: 96px 48px;
 }
+.fundraising-container p{
+    color: #8e8c8c;
+    text-align: center;
+    margin-bottom: 62px;
+    font-family: "Inter 500", sans-serif;
+    font-size: 12px;
+    margin-top: 18px;
+}
+.know{
+    border: none;
+}
 
 @media screen and (max-width:768px){
     .fundraising-container{
@@ -45,14 +56,34 @@
     letter-spacing: -0.5px;
     margin-top: 0px;
     margin-bottom: 64px;
-    font-family: sofia-pro, sans-serif;
+    font-family:  sans-serif;
     margin-top: 20px;
     margin-bottom: 24px;
     font-size: 28px;
     font-weight: 700;
     line-height: 64px;
 }
-
+@media screen and (max-width:768px){
+    .fundraising-container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .fundraising-container h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .fundraising-container h4{
+        color: #183b56;
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 16px;
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 250px;
+        margin: auto;
+        font-weight: 400;
+    }
+}
 .fundraising-image-card{
     background-image: url('https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Home/desktop-confetti-1.svg');
     background-size: cover;
@@ -62,6 +93,7 @@
 
 .fundraising-image-card img{
     width: 100%;
+    max-width: 500px;
 }
 
 .fundraising-celebration-card{
@@ -70,17 +102,27 @@
     justify-content: center;
     width: 100%;
     margin-bottom: 24px;
+    margin: auto;
 }
 
 .fundraising-celebration-card img{
     width: 100%;
     max-width: 306px;
     height: 80px;
-    margin-right: 96px;
+    margin-right: 36px;
 }
 
 @media screen and (max-width:768px){
-    .fundraising-celebration-card img  {
-        max-width: 156px;
+    .fundraising-celebration-card{
+        margin-top: 22px;
     }
+    .fundraising-celebration-card img  {
+        max-width: 144px;
+        height: 37px;
+        margin-right: 20px;
+    }
+    .fundraising-image-card img{
+        max-width: 300px;
+    }
+   
 }
